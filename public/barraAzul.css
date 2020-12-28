@@ -1,7 +1,16 @@
 header {
-  width: 96rem;
-  height: 7rem;
-  background: hsla(222, 96%, 37%, 0.5);
+  width: 78rem;
+  height: 5rem;
+  background: #00ccff;
   display: flex;
   align-items: flex-start;
 }
+
+footer
+{
+    margin-top:380px;
+    width:78rem;
+    height:5rem;
+    background-color:#00ccff;
+}
+

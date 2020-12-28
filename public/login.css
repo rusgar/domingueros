@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+  }
+
+ 
+#registrar{
+        float:left;
+        width:80%;
+        font-size:24px;
+        font-weight:bold;
+        color:#FFF;
+        text-align:right;
+}
+ 
+#envoltura{
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-190px;
+    margin-top: -141px;
+    width: 300px;
+ 
+}
+ 
+#contenedor{
+    background-color:#00ccff;
+    box-shadow: 20px 13px 13px 5px rgba(0,0,0,.8);
+    -webkit-border-radius:5px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
+ 
+#cabecera{
+    border-bottom: 5px solid rgb(241, 241, 6);
+    padding-top: 5px;
+    height:60px;
+    line-height:50px;
+    text-align:center;
+}
+ 
+#cuerpo{
+    background:#ececec;
+    border:solid #ccc;
+    border-width: 2px 0;
+    padding:15px 35px;
+}
+ 
+label{
+    color: #666;
+    font-weight: bold
+}
+ 
+input{
+    
+    border-radius:5px;
+    box-shadow: 2px 2px 3px 1px rgba(0,0,0,.8);
+    font:bold 12px Arial, Helvetica, sans-serif;
+    height: 24px;
+    line-height: 20px;
+    padding:0 2px;
+    width: 230px;
+}
+ 
+input#usuario{
+    background:rgb(241, 241, 6) url(../public/imagenes/infinito.png) no-repeat 0 2px; 
+    padding-left: 25px;
+ }
+ 
+input#contrasenia{
+    background:rgb(241, 241, 6) url(../public/imagenes/infinito.png) no-repeat 0 5px;
+    padding-left: 25px;
+ 
+}
+ 
+.boton{
+    background: #ccc;
+    background: -webkit-linear-gradient(top,#fc6,#f63);
+    background: linear-gradient(top,#fc6,#f63);
+    color: #666;
+    width: 120px;
+}
+ 
+
+.boton:active{
+    position: relative;
+    top: 3px;
+}
+ 
+#pie{
+    border-top: 5px solid rgb(241, 241, 6);
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    height: 25px;
+    line-height: 24px;
+    text-align: center;
+}
+ 
+form,p{
+    margin:0;
+}
+ 
+p{
+    padding-bottom: 5px;
+}
+ 
+
+p#bot{
+    padding-top: 10px;
+}
