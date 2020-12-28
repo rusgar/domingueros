@@ -1,0 +1,27 @@
+{
+  "name": "libretuca-picantita",
+  "version": "1.0.0",
+  "description": "Domingueros",
+  "main": "./views/app.js",
+  "scripts": {
+    "dev": "nodemon ./views/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rusgar/domingueros"
+  },
+  "author": "Grupo3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rusgar/domingueros/issues"
+  },
+  "homepage": "https://github.com/rusgar/domingueros#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

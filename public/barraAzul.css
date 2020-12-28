@@ -1,0 +1,7 @@
+header {
+  width: 96rem;
+  height: 7rem;
+  background: hsla(222, 96%, 37%, 0.5);
+  display: flex;
+  align-items: flex-start;
+}
