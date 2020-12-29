@@ -7,12 +7,12 @@
 
  
 #registrar{
-        float:left;
+        
         width:80%;
-        font-size:24px;
+        font-size:2rem;
         font-weight:bold;
         color:#FFF;
-        text-align:right;
+        
 }
  
 #envoltura{
@@ -65,12 +65,12 @@ input{
 }
  
 input#usuario{
-    background:rgb(241, 241, 6) url(../public/imagenes/infinito.png) no-repeat 0 2px; 
+    background:rgb(241, 241, 6) 2px; 
     padding-left: 25px;
  }
  
 input#contrasenia{
-    background:rgb(241, 241, 6) url(../public/imagenes/infinito.png) no-repeat 0 5px;
+    background:rgb(241, 241, 6)  5px;
     padding-left: 25px;
  
 }

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+  }
+
+h2{
+  position: absolute;
+  width: 8rem;
+  height: 8rem;
+  left: 15rem;
+  top: 27rem;
+  font-size: 6rem;
+  line-height: 8rem;
+  -webkit-text-stroke: 0.3rem rgb(0, 132, 255);
+  color: rgba(230, 207, 7, 0.808);
+  
+}
+
+footer
+{
+    margin-top:380px;
+    width:78rem;
+    height:5rem;
+    background-color:#00ccff;
+}
