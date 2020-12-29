@@ -24,6 +24,10 @@ app.get("/busqueda", (req, res) => {
   res.render("templateBusqueda", {layout: "busqueda"});
 });
 
+app.get("/busqueda/occidente", (req, res) => {
+  res.render("templateOccidente", {layout: "occidente"});
+});
+
 
 app.listen(port, () => console.log(`App listening to port ${port}`));
 
