@@ -20,6 +20,10 @@ app.get("/", (req, res) => {
   res.render("inicio", {layout: "principal"});
 });
 
+app.get("/busqueda", (req, res) => {
+  res.render("templateBusqueda", {layout: "busqueda"});
+});
+
 
 app.listen(port, () => console.log(`App listening to port ${port}`));
 
