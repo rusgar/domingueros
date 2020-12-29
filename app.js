@@ -24,7 +24,7 @@ app.get("/busqueda", (req, res) => {
   res.render("templateBusqueda", {layout: "busqueda"});
 });
 
-app.get("/occidente", (req, res) => {
+app.get("/busqueda/occidente", (req, res) => {
   res.render("templateOccidente", {layout: "occidente"});
 });
 
