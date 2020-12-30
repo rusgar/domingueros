@@ -18,6 +18,13 @@ h1{
   color: rgba(230, 207, 7, 0.808);
   
 }
+h1 a {
+  text-decoration: none;
+}
+ h1 a:visited{
+  -webkit-text-stroke: 0.3rem rgb(0, 132, 255);
+  color: rgb(230, 207, 7, 0.808);
+}
 
 body{
   background-image: url(../imagenes/asturias1.jpg);
