@@ -6,13 +6,13 @@
   }
 
 h2{
-  position: absolute;
+  position: sticky;
   width: 8rem;
   height: 8rem;
-  left: 15rem;
-  top: 27rem;
+  left: 19rem;
+  top: 31rem;
   font-size: 6rem;
-  line-height: 9rem;
+  line-height: 7rem;
   -webkit-text-stroke: 0.3rem rgb(0, 132, 255);
   color: rgba(230, 207, 7, 0.808);
   
@@ -20,8 +20,8 @@ h2{
 
 footer
 {
-    margin-top:0rem;
-    width:78rem;
+    margin-top:5rem;
+    width:86rem;
     height:6rem;
     background-color:#00ccff;
 }
