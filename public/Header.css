@@ -1,5 +1,5 @@
 header {
-  width: 78rem;
+  width: 86rem;
   height: 5rem;
   background: #00ccff;
   display: flex;
@@ -10,7 +10,7 @@ h1{
   position: absolute;
   width: 8rem;
   height: 8rem;
-  left: 15rem;
+  left: 17rem;
   top: 2rem;
   font-size: 6rem;
   line-height: 0rem;
