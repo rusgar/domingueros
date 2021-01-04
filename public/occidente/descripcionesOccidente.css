@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.nombreOccidente{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.parrafoOccidente{
+    text-align: justify;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1rem;
+}
+
+.perfilOccidente{
+    text-align: center;
+}
