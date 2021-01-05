@@ -27,3 +27,21 @@
     justify-content:space-evenly;
     
 }
+#formulario{
+    justify-content: center;  
+    padding-left: 18rem;
+    
+}
+h4{
+    
+    font-size: 2rem;
+    color: rgb(45, 235, 12);
+       
+}
+
+.pack{
+    
+    display: block;  
+    padding: 0rem;
+   
+}

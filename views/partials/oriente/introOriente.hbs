@@ -1,11 +1,36 @@
     <h3 id="orienteTitulo">ORIENTE DE ASTURIAS</h3>
+    <form id= "formulario" action="/busqueda/centro" method="POST">
+
+        <h4 class="pack">Añadir subida</h4>
+       
+       <section class="pack">
+            <label class = "label" for="title">Puerto</label>
+            <input type="text" id="name" placeholder="Nombre del Puerto...">
+            <label class = "label" for="title">Localidad</label>
+            <input type="text" id="name" placeholder="">
+            <label class = "label" for="title">Imagen</label>
+            <input type=".jpg" id="name" placeholder="Altimetria">
+        </section>
+
+        <section class="pack">
+            <label class = "label" for="textarea">Descripción</label> <br>
+            <textarea id="textarea" rows="5" cols="30" placeholder="Descripción del puerto..."></textarea>
+        </section>
+
+        <section id="send" class="pack">
+            <input class = "button" type="submit" value="Guardar" >
+            <input class = "button" type="reset">
+        </section>                      
+        
+
+    </form>
     
     <p id="descripcionOriente">En esta sección, encontrarás los puertos más cercanos a los Picos de Europa.<br>
     Espectaculares vistas, desniveles, puertos de varias distancias y cimas míticas del ciclismo internacional.
     </p>
 
     <figure id="orienteMapa">
-     <<div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+     <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
 		<div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
         var setting = {"height":222,"width":500,"zoom":10,"queryString":"Oriente, Asturias, España","place_id":"ChIJxY6Z-0fZSQ0RSVeHH0XtlyE","satellite":false,"centerCoord":[43.28807264375644,-4.996992589375968],"cid":"0x2197ed451f875749","lang":"es","cityUrl":"/spain/llanes-8347","cityAnchorText":"Mapa de Llanes, Asturias, España","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"336661"};
         var d = document;
